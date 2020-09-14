@@ -47,7 +47,7 @@ h1{
 .parallax4 {
  
   background-image: url('../images/purple.jpg');
-  height: 50%; 
+  height: 70%; 
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -55,12 +55,6 @@ h1{
 
 }
 
-.footer{
-    background-color: orange;
-    height: 100px;
-    text-align: center;
-    padding: 0px;
-}
 
 .scroll2{
     height:500px;
@@ -86,8 +80,8 @@ h1{
     text-align:center;
 }
 
-.scroll4{
-    height:400px;
+.footer{
+    height:200px;
     background-color:slategrey;
     font-size:20px;
     text-align:center;
