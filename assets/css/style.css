@@ -1,6 +1,94 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
+body, html{
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Raleway', sans-serif;
+}
+
 h1{
     color: red;
-    font-family: 'Raleway', sans-serif;
+}
+
+.parallax {
+ 
+  background-image: url("../images/create.jpg");
+  height: 100%; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+}
+
+.parallax2 {
+ 
+  background-image: url('../images/yellow.jpg');
+  height: 50%; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.parallax3 {
+ 
+  background-image: url('../images/colors.jpg');
+  height: 50%; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.parallax4 {
+ 
+  background-image: url('../images/purple.jpg');
+  height: 50%; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.footer{
+    background-color: orange;
+    height: 100px;
+    text-align: center;
+    padding: 0px;
+}
+
+.scroll2{
+    height:500px;
+    background-color:slategrey;
+    font-size:20px;
+    text-align:center;
+    padding-top: 35px;
+}
+
+.scroll{
+    height:500px;
+    background-color:slategrey;
+    font-size:20px;
+    text-align:center;
+    padding-top: 2%;
+    
+}
+
+.scroll3{
+    height:400px;
+    background-color:slategrey;
+    font-size:20px;
+    text-align:center;
+}
+
+.scroll4{
+    height:400px;
+    background-color:slategrey;
+    font-size:20px;
+    text-align:center;
 }
