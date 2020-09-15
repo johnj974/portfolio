@@ -61,7 +61,6 @@ h1{
     background-color:slategrey;
     font-size:20px;
     text-align:center;
-    padding-top: 35px;
 }
 
 .scroll{
@@ -69,8 +68,6 @@ h1{
     background-color:slategrey;
     font-size:20px;
     text-align:center;
-    padding-top: 2%;
-    
 }
 
 .scroll3{
@@ -85,4 +82,8 @@ h1{
     background-color:slategrey;
     font-size:20px;
     text-align:center;
+}
+
+#project-row{
+    height: 200px;
 }

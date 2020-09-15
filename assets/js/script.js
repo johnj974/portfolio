@@ -21,3 +21,14 @@ $("#totop").click(function() {
             scrollTop: $("#title").offset().top
         }, 2000);
 });
+
+function calender(){
+    let date = new Date();
+    let year = date.getFullYear();
+    let month = date.getMonth();
+    let day = date.getDate();
+    let months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+    document.getElementById("date").innerHTML = `${day} ${months[month]} ${year}`;
+}
+calender();
+
