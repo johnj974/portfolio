@@ -9,23 +9,26 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
 		integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 	<link rel="stylesheet" href="assets/css/style.css" type="text/css">
-	<script defer src="js/script.js"></script>
+	<script defer src="assets/js/script.js"></script>
 </head>
 
 <body>
 	<nav class="navbar navbar-expand-lg navbar-light bg-light">
-		<a class="navbar-brand" href="#">J2 Designs</a>
+		<a class="navbar-brand" href="#" id="title">J2 Designs</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
         </button>
 
 		<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
 			<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-				<li class="nav-item active">
-					<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+				<li class="nav-item">
+					<a class="nav-link" href="#projects" id="projectsnav">Projects <span class="sr-only">(current)</span></a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#">Link</a>
+					<a class="nav-link" href="#skills" id="skillsnav">Skills</a>
+				</li>
+                <li class="nav-item">
+					<a class="nav-link" href="#contact" id="contactnav">Contact</a>
 				</li>
 			</ul>
 		</div>
@@ -33,18 +36,18 @@
 
 	<div class="parallax"></div>
 	<div id="scroll" class="container-fluid scroll">
-		<div id="##"></div>
-		<p>projects<a href="#bottom"><i id="tobottom" class="far fa-caret-square-down"></i></a></p>
+		<div id="projects"></div>
+		<p>projects</p>
 	</div>
 
 	<div class="parallax2"></div>
 	<div id="scroll2" class="container-fluid scroll2">
-		<div id="#"></div>
-        <p>skills<a href="#bottom2"><i id="tobottom2" class="far fa-caret-square-down"></i></a></p>
+		<div id="skills"></div>
+        <p>skills</p>
 	</div>
 
 	<div class="container-fluid parallax3"></div>
-	<div class="container-fluid scroll3">
+	<div class="container-fluid scroll3" id="contact">
 		<div class="row">
 			<div class="col">
             <p>Contact</p>
@@ -56,6 +59,13 @@
 	<div class="container-fluid footer">
 		<div class="row">
 			<div class="col">
+            <p>footer</p>
+			</div>
+            <div class="col">
+            <p>footer</p>
+            <p><a href="#title"><i id="totop" class="far fa-caret-square-up"></i></a></p>
+			</div>
+            <div class="col">
             <p>footer</p>
 			</div>
 		</div>
