@@ -14,6 +14,7 @@ let santa = new project("Santa CV", "HTML", "Javascript", "CSS", "Bootstrap")
 
 
 function info(project){
+    document.getElementById("projpic").src = "assets/images/candle.jpg"
     document.getElementById("projectname").innerHTML = project.name;
     document.getElementById("projecttech1").innerHTML = project.tech1;
     document.getElementById("projecttech2").innerHTML = project.tech2;
@@ -22,6 +23,7 @@ function info(project){
 }
 
 function noInfo(){
+    document.getElementById("projpic").src = "assets/images/purple.jpg"
     document.getElementById("projectname").innerHTML = null;
     document.getElementById("projecttech1").innerHTML = null;
     document.getElementById("projecttech2").innerHTML = null;
