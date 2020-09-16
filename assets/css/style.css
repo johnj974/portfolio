@@ -84,9 +84,12 @@ h1{
     text-align:center;
 }
 
-
 #date{
     margin: 0;
     padding: 8px;
     float: right;
+}
+
+.cardproject{
+    overflow: hidden;
 }
