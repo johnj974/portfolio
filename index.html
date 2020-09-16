@@ -42,7 +42,7 @@
     </div>
 	<div id="projects" class="container-fluid projects">
 		    <div class="row h-50" id="project-row">
-                <div class="col h-100" onmouseover="info(metallic);">
+                <div class="col h-100" onmouseover="info(metallic);" onmouseout="noInfo()">
                     <div class="card bg-dark text-white h-100 cardproject">
                     <img src="assets/images/band.jpg" class="card-img" alt="rock band on stage">
                     <div class="card-img-overlay">
@@ -51,7 +51,7 @@
                     </div>
                     </div>
                 </div>
-                <div class="col h-100" onmouseover="info(countryInfo);">
+                <div class="col h-100" onmouseover="info(countryInfo);" onmouseout="noInfo()">
                     <div class="card bg-dark text-white h-100 cardproject">
                     <img src="assets/images/volcano.jpg" class="card-img" alt="snow capped volcano">
                     <div class="card-img-overlay">
@@ -60,7 +60,7 @@
                     </div>
                     </div>
                 </div>
-                <div class="col h-100" onmouseover="info(triathlon);">
+                <div class="col h-100" onmouseover="info(triathlon);" onmouseout="noInfo()">
                     <div class="card bg-dark text-white h-100 cardproject">
                     <img src="assets/images/bike.jpg" class="card-img" alt="woman holding bike">
                     <div class="card-img-overlay">
@@ -71,7 +71,7 @@
                 </div>
             </div>
             <div class="row h-50">
-                <div class="col h-100" onmouseover="info(mystery);">
+                <div class="col h-100" onmouseover="info(mystery);" onmouseout="noInfo()">
                     <div class="card bg-dark text-white h-100 cardproject">
                     <img src="assets/images/monkeys.jpg" class="card-img" alt="monkey statues">
                     <div class="card-img-overlay">
@@ -82,9 +82,9 @@
                 </div>
                 <div class="col h-100">
                     <div class="card bg-dark text-white h-100 cardproject">
-                    <img src="assets/images/volcano.jpg" class="card-img" alt="...">
+                    <img src="assets/images/candle.jpg" class="card-img" alt="candle with a black background">
                     <div class="card-img-overlay">
-                        <h5 class="card-title" id="projectname">Card title</h5>
+                        <h5 class="card-title" id="projectname"></h5>
                         <p class="card-text" id="projecttech1"></p>
                         <p class="card-text" id="projecttech2"></p>
                         <p class="card-text" id="projecttech3"></p>
@@ -92,12 +92,12 @@
                     </div>
                     </div>
                 </div>
-                <div class="col h-100">
+                <div class="col h-100" onmouseover="info(santa);" onmouseout="noInfo()">
                     <div class="card bg-dark text-white h-100 cardproject">
-                    <img src="assets/images/volcano.jpg" class="card-img" alt="...">
+                    <img src="assets/images/santa.jpg" class="card-img" alt="Santa figurine skating">
                     <div class="card-img-overlay">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <a href="#" target="_blank"><h5 class="card-title">Santa CV</h5></a>
+                        <p class="card-text"></p>
                     </div>
                     </div>
                 </div>
@@ -128,6 +128,9 @@
 			<div class="col">
             <p>&#169 J2 Designs 2020</p>
             <p><a href="#title"><i id="totop" class="far fa-caret-square-up"></i></a></p>
+            <p>Projects</p>
+            <p>Skills</p>
+            <p>Contact</p>
 			</div>
 		</div>
 	</div>

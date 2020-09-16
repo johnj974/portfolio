@@ -97,3 +97,7 @@ h1{
 .card-img{
     object-position: center;
 }
+
+p{
+    margin: 0;
+}
