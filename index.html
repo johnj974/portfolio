@@ -10,6 +10,7 @@
 		integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 	<link rel="stylesheet" href="assets/css/style.css" type="text/css">
 	<script defer src="assets/js/script.js"></script>
+    <script defer src="assets/js/projects.js"></script>
 </head>
 
 <body>
@@ -36,50 +37,58 @@
 			</ul>
 		</div>
 	</nav>
-
+<!-----------------------------------------Projects section------------------------------------->
 	<div class="parallax">
     </div>
 	<div id="projects" class="container-fluid projects">
 		    <div class="row h-50" id="project-row">
-                <div class="col h-100">
+                <div class="col h-100" onmouseover="info(metallic);">
                     <div class="card bg-dark text-white h-100 cardproject">
                     <img src="assets/images/band.jpg" class="card-img" alt="rock band on stage">
                     <div class="card-img-overlay">
-                        <h5 class="card-title">Metallic AA's</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        <p class="card-text"><a href="https://johnj974.github.io/The-Metallic-AA-s/" target="_blank">Look at me</a></p>
+                        <a href="https://johnj974.github.io/The-Metallic-AA-s/" target="_blank"><h5 class="card-title">Metallic AA's</h5></a>
+                        <p class="card-text"></p>
                     </div>
                     </div>
                 </div>
-                <div class="col h-100">
+                <div class="col h-100" onmouseover="info(countryInfo);">
                     <div class="card bg-dark text-white h-100 cardproject">
                     <img src="assets/images/volcano.jpg" class="card-img" alt="snow capped volcano">
                     <div class="card-img-overlay">
-                        <h5 class="card-title">Weather App</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        <p class="card-text"><a href="https://johnj974.github.io/country-info-locator-weather-app/" target="_blank">Look at me</a></p>
+                        <a href="https://johnj974.github.io/country-info-locator-weather-app/" target="_blank"><h5 class="card-title">Country Info App</h5></a>
+                        <p class="card-text"></p>
                     </div>
                     </div>
                 </div>
-                <div class="col h-100">
+                <div class="col h-100" onmouseover="info(triathlon);">
                     <div class="card bg-dark text-white h-100 cardproject">
-                    <img src="assets/images/fitness.jpg" class="card-img" alt="woman holding bike">
+                    <img src="assets/images/bike.jpg" class="card-img" alt="woman holding bike">
                     <div class="card-img-overlay">
-                        <h5 class="card-title">Triathlon Checklist</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        <p class="card-text"><a href="https://triathlon-assistant.herokuapp.com/" target="_blank">Look at me</a></p>
+                        <a href="https://triathlon-assistant.herokuapp.com/" target="_blank"><h5 class="card-title">Triathlon Checklist</h5></a>
+                        <p class="card-text"></p>
                     </div>
                     </div>
                 </div>
             </div>
             <div class="row h-50">
-                <div class="col h-100">
+                <div class="col h-100" onmouseover="info(mystery);">
                     <div class="card bg-dark text-white h-100 cardproject">
                     <img src="assets/images/monkeys.jpg" class="card-img" alt="monkey statues">
                     <div class="card-img-overlay">
-                        <h5 class="card-title">Mystery Shack</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        <p class="card-text"><a href="https://agri-e-store.herokuapp.com/" target="_blank">Look at me</a></p>
+                        <a href="https://agri-e-store.herokuapp.com/" target="_blank"><h5 class="card-title">Mystery Shack</h5></a>
+                        <p class="card-text"></p>
+                    </div>
+                    </div>
+                </div>
+                <div class="col h-100">
+                    <div class="card bg-dark text-white h-100 cardproject">
+                    <img src="assets/images/volcano.jpg" class="card-img" alt="...">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title" id="projectname">Card title</h5>
+                        <p class="card-text" id="projecttech1"></p>
+                        <p class="card-text" id="projecttech2"></p>
+                        <p class="card-text" id="projecttech3"></p>
+                        <p class="card-text" id="projecttech4"></p>
                     </div>
                     </div>
                 </div>
@@ -89,23 +98,12 @@
                     <div class="card-img-overlay">
                         <h5 class="card-title">Card title</h5>
                         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        <p class="card-text">Last updated 3 mins ago</p>
-                    </div>
-                    </div>
-                </div>
-                <div class="col h-100">
-                    <div class="card bg-dark text-white h-100 cardproject">
-                    <img src="assets/images/volcano.jpg" class="card-img" alt="...">
-                    <div class="card-img-overlay">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        <p class="card-text">Last updated 3 mins ago</p>
                     </div>
                     </div>
                 </div>
             </div>
 	</div>
-
+<!-----------------------------------------------------Skills Section--------------------------------------------------->
 	<div class="parallax2"></div>
 	<div id="scroll2" class="container-fluid scroll2">
 		<div id="skills"></div>
@@ -123,7 +121,7 @@
 			</div>
 		</div>
 	</div>
-
+<!----------------------------------------------Contact Section------------------------------------------------------->
 	<div class="container-fluid parallax4"></div>
 	<div class="container-fluid footer">
 		<div class="row">

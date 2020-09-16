@@ -93,3 +93,7 @@ h1{
 .cardproject{
     overflow: hidden;
 }
+
+.card-img{
+    object-position: center;
+}
