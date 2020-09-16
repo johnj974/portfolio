@@ -25,7 +25,7 @@ h1{
 .parallax2 {
  
   background-image: url('../images/yellow.jpg');
-  height: 50%; 
+  height: 60%; 
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -36,7 +36,7 @@ h1{
 .parallax3 {
  
   background-image: url('../images/colors.jpg');
-  height: 50%; 
+  height: 60%; 
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -63,7 +63,7 @@ h1{
     text-align:center;
 }
 
-.scroll{
+.projects{
     height:500px;
     background-color:slategrey;
     font-size:20px;
@@ -84,6 +84,9 @@ h1{
     text-align:center;
 }
 
-#project-row{
-    height: 200px;
+
+#date{
+    margin: 0;
+    padding: 8px;
+    float: right;
 }
