@@ -70,7 +70,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row h-50">
+            <div class="row h-50" id="projectTarget">
                 <div class="col h-100" onmouseover="info(mystery);" onmouseout="noInfo()">
                     <div class="card bg-dark text-white h-100 cardproject">
                     <img src="assets/images/monkeys.jpg" class="card-img" alt="monkey statues">
@@ -109,28 +109,43 @@
 		<div id="skills"></div>
         <p>skills</p>
 	</div>
-
+<!-----------------------------------------------------Contact Section--------------------------------------------------->
 	<div class="container-fluid parallax3"></div>
 	<div class="container-fluid scroll3" id="contact">
 		<div class="row">
 			<div class="col">
-                <p>E-mail contact</p>
-			</div>
-            <div class="col">
-                <p>Phone contacts</p>
+                <p>Contact</p>
+                <form action="" method="POST">
+                    
+                            
+                            <input type="text" id="name" name="user_name" placeholder="name:" required>
+                            <br>
+                        
+                            
+                            <input type="email" id="email" name="e_mail" placeholder="e-mail:" required>
+                            <br>
+                        
+                            
+                            <textarea id="msg" name="user_message" placeholder="message:" required></textarea>
+                            <br>
+                            
+                        
+                            <button type="submit">Send your message</button>
+                        
+                    
+                </form>
 			</div>
 		</div>
 	</div>
-<!----------------------------------------------Contact Section------------------------------------------------------->
+<!----------------------------------------------Footer Section------------------------------------------------------->
 	<div class="container-fluid parallax4"></div>
 	<div class="container-fluid footer">
 		<div class="row">
 			<div class="col">
             <p>&#169 J2 Designs 2020</p>
             <p><a href="#title"><i id="totop" class="far fa-caret-square-up"></i></a></p>
-            <p>Projects</p>
-            <p>Skills</p>
-            <p>Contact</p>
+            <p><i class="fas fa-mobile-alt"></i>087-1234567</p>
+            <p><i class="fas fa-laptop"></i>example@example.com</p>
 			</div>
 		</div>
 	</div>

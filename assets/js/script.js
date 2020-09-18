@@ -1,6 +1,6 @@
 $("#projectsnav").click(function() {
         $('html, body').animate({
-            scrollTop: $("#projects").offset().top
+            scrollTop: $("#projecTarget").offset().top
         }, 2000);
 });
 
