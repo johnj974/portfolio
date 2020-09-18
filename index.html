@@ -118,7 +118,7 @@
                 <form action="" method="POST">
                     
                             
-                            <input type="text" id="name" name="user_name" placeholder="name:" required>
+                            <input type="text" id="name" name="user_name" placeholder="name:" value="" required>
                             <br>
                         
                             
@@ -129,8 +129,8 @@
                             <textarea id="msg" name="user_message" placeholder="message:" required></textarea>
                             <br>
                             
-                        
-                            <button type="submit">Send your message</button>
+                            <button onclick="clearSelect()">Clear Fields. </button>
+                            <button type="submit"> Send your message.</button>
                         
                     
                 </form>
@@ -144,8 +144,8 @@
 			<div class="col">
             <p>&#169 J2 Designs 2020</p>
             <p><a href="#title"><i id="totop" class="far fa-caret-square-up"></i></a></p>
-            <p><i class="fas fa-mobile-alt"></i>087-1234567</p>
             <p><i class="fas fa-laptop"></i>example@example.com</p>
+            <p><i class="fas fa-mobile-alt"></i>087-1234567</p>
 			</div>
 		</div>
 	</div>

@@ -133,17 +133,23 @@ textarea {
   border-radius: 4px;
   background-color: slategrey;
   resize: none;
+  outline: none;
 }
 
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-  color: red;
+  color: #212529;
   opacity: 1; /* Firefox */
 }
 
 :-ms-input-placeholder { /* Internet Explorer 10-11 */
-  color: red;
+  color: #212529;
 }
 
 ::-ms-input-placeholder { /* Microsoft Edge */
-  color: red;
+  color: #212529;
+}
+
+button{
+    background-color: slategrey;
+    border: 1px solid black;
 }
