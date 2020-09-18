@@ -5,6 +5,7 @@ body, html{
     margin: 0px;
     padding: 0px;
     font-family: 'Raleway', sans-serif;
+    /*--scroll-behavior: smooth;--*/
 }
 
 h1{
@@ -94,8 +95,9 @@ h1{
     overflow: hidden;
 }
 
-.card-img{
-    object-position: center;
+.card{
+    border: none;
+    border-radius: 0;
 }
 
 p{
