@@ -147,7 +147,8 @@ textarea {
 
 button{
     background-color: slategrey;
-    border: 1px solid black;
+    outline: none;
+    border: none;
 }
 
 #totop{
@@ -167,4 +168,16 @@ a:hover{
     color: rgb(255, 8, 0);
     transition: color 0.5s ease-in-out;
     text-decoration: none;
+}
+
+#send:hover{
+    color: whitesmoke;
+    transition: color 0.5s ease-in-out;
+    border: none;
+}
+
+#clear:hover{
+    color:  whitesmoke;
+    transition: color 0.5s ease-in-out;
+    border: none
 }
