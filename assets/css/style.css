@@ -58,7 +58,7 @@ h1{
 
 
 .scroll2{
-    height:500px;
+    height:400px;
     background-color:slategrey;
     font-size:20px;
     text-align:center;
@@ -71,12 +71,6 @@ h1{
     text-align:center;
 }
 
-.scroll3{
-    height:400px;
-    background-color:slategrey;
-    font-size:20px;
-    text-align:center;
-}
 
 .footer{
     height:200px;
@@ -154,4 +148,23 @@ textarea {
 button{
     background-color: slategrey;
     border: 1px solid black;
+}
+
+#totop{
+    color: red;
+}
+
+#totop:hover{
+    color: green;
+    transition: color 0.5s ease-in-out;
+}
+
+a{
+    color: purple;
+}
+
+a:hover{
+    color: rgb(255, 8, 0);
+    transition: color 0.5s ease-in-out;
+    text-decoration: none;
 }
