@@ -71,9 +71,8 @@ h1{
     text-align:center;
 }
 
-
 .footer{
-    height:200px;
+    height:150px;
     background-color:slategrey;
     font-size:20px;
     text-align:center;
@@ -88,6 +87,7 @@ h1{
 .cardproject{
     overflow: hidden;
 }
+
 
 .card{
     border: none;
@@ -145,6 +145,12 @@ textarea {
   color: #212529;
 }
 
+@media screen and (max-width: 768px) {
+  textarea, input[type=email], input[type=text] {
+    width: 100%;
+  }
+}
+
 button{
     background-color: slategrey;
     outline: none;
@@ -180,4 +186,10 @@ a:hover{
     color:  whitesmoke;
     transition: color 0.5s ease-in-out;
     border: none
+}
+
+img{
+    background-position:fixed; 
+    background-size: cover; 
+    background-repeat: no-repeat;  
 }
