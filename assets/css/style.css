@@ -147,7 +147,13 @@ textarea {
 
 @media screen and (max-width: 768px) {
   textarea, input[type=email], input[type=text] {
-    width: 100%;
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .scroll2{
+    position: relative;
   }
 }
 
@@ -189,7 +195,12 @@ a:hover{
 }
 
 img{
-    background-position:fixed; 
-    background-size: cover; 
-    background-repeat: no-repeat;  
+    min-height: -webkit-fill-available;
+}
+
+@media screen and (min-width: 1200px) {
+  .card-img, .card-img-bottom, .card-img-top {
+    flex-shrink: initial;
+    width: 100%;
+    }
 }
