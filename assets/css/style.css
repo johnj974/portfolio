@@ -13,49 +13,40 @@ h1{
 }
 
 .parallax {
- 
-  background-image: url("../images/create.jpg");
-  height: 100%; 
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
- 
+    background-image: url("../images/create.jpg");
+    height: 100%; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .parallax2 {
- 
-  background-image: url('../images/yellow.jpg');
-  height: 60%; 
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-
+    background-image: url('../images/yellow.jpg');
+    height: 60%; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .parallax3 {
- 
-  background-image: url('../images/colors.jpg');
-  height: 60%; 
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-
+    background-image: url('../images/colors.jpg');
+    height: 60%; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .parallax4 {
- 
-  background-image: url('../images/purple.jpg');
-  height: 70%; 
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-
+    background-image: url('../images/purple.jpg');
+    height: 70%; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-
 
 .scroll2{
     height:400px;
@@ -69,7 +60,9 @@ h1{
     background-color:slategrey;
     font-size:20px;
     text-align:center;
+    display: table-header-group;  /*this line to display projects in mobile view*/
 }
+
 
 .footer{
     height:150px;
@@ -99,61 +92,62 @@ p{
 }
 
 input[type=text] {
-  width: 50%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
-  border: none;
-  border-bottom: 1px solid black;
-  background-color: slategrey;
-  outline: none;
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: slategrey;
+    outline: none;
 }
 
 input[type=email] {
-  width: 50%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
-  border: none;
-  border-bottom: 1px solid black;
-  background-color: slategrey;
-  outline: none;
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: slategrey;
+    outline: none;
 }
 
 textarea {
-  width: 50%;
-  height: 150px;
-  padding: 12px 20px;
-  box-sizing: border-box;
-  border: 1px solid black;
-  border-radius: 4px;
-  background-color: slategrey;
-  resize: none;
-  outline: none;
+    width: 50%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 4px;
+    background-color: slategrey;
+    resize: none;
+    outline: none;
 }
 
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-  color: #212529;
-  opacity: 1; /* Firefox */
+    color: #212529;
+    opacity: 1; /* Firefox */
 }
 
 :-ms-input-placeholder { /* Internet Explorer 10-11 */
-  color: #212529;
+    color: #212529;
 }
 
 ::-ms-input-placeholder { /* Microsoft Edge */
-  color: #212529;
+    color: #212529;
 }
 
+/*media to handle resizing of contact section*/
 @media screen and (max-width: 768px) {
-  textarea, input[type=email], input[type=text] {
-    width: 90%;
+    textarea, input[type=email], input[type=text] {
+        width: 90%;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .scroll2{
-    position: relative;
+    .scroll2{
+        position: relative;
   }
 }
 
@@ -198,6 +192,7 @@ img{
     min-height: -webkit-fill-available;
 }
 
+/* media to handle smaller pictures on larger screens*/
 @media screen and (min-width: 1200px) {
   .card-img, .card-img-bottom, .card-img-top {
     flex-shrink: initial;
