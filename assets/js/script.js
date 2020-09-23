@@ -1,25 +1,25 @@
 $("#projectsnav").click(function() {
         $('html, body').animate({
-            scrollTop: $("#projecTarget").offset().top
-        }, 2000);
+            scrollTop: $("#projects").offset().top
+        }, 3000);
 });
 
 $("#skillsnav").click(function() {
         $('html, body').animate({
             scrollTop: $("#skills").offset().top
-        }, 2000);
+        }, 3000);
 });
 
 $("#contactnav").click(function() {
         $('html, body').animate({
             scrollTop: $("#contact").offset().top
-        }, 2000);
+        }, 3000);
 });
 
 $("#totop").click(function() {
         $('html, body').animate({
             scrollTop: $("#title").offset().top
-        }, 2000);
+        }, 3000);
 });
 
 
@@ -33,6 +33,7 @@ function calender(){
 }
 calender();
 
+// clear selection button fo contact section
 function clearSelect(){
     let placeholderName = document.getElementById("name").placeholder;
     let placeholderMail = document.getElementById("email").placeholder;
@@ -40,6 +41,14 @@ function clearSelect(){
     document.getElementById("name").value = placeholderName;
     document.getElementById("email").value = placeholderMail;
     document.getElementById("msg").value = placeholderMessage;
+}
+
+function confirmation(){
+    document.getElementById("confirm").innerHTML = "Message successfully delivered";
+}
+
+function clearConfirmation(){
+    document.getElementById("confirm").innerHTML = null 
 }
 
 

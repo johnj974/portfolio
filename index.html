@@ -45,6 +45,7 @@
                     <img src="assets/images/band.jpg" class="card-img" alt="rock band on stage">
                     <div class="card-img-overlay">
                         <a href="https://johnj974.github.io/The-Metallic-AA-s/" target="_blank"><h5 class="card-title">Metallic AA's</h5></a>
+                        <p id="metalDescription"></p>
                     </div>
                     </div>
                 </div>
@@ -119,11 +120,11 @@
                             <br>
                         
                             
-                            <textarea id="msg" name="user_message" placeholder="Message:" required></textarea>
+                            <textarea id="msg" name="user_message" placeholder="Message:" maxlength="215" required ></textarea>
                             <br>
-                            <button type="submit" id="send"> Send your message.</button>
+                            <button type="submit" id="send" onclick="confirmation(),setTimeout(clearConfirmation, 3000)"> Send your message.</button>
                             <button onclick="clearSelect()" id="clear">Clear Fields. </button>
-                            
+                            <p id="confirm"></p>
                         
                     
                 </form>

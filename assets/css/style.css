@@ -63,12 +63,12 @@ h1{
     display: table-header-group;  /*this line to display projects in mobile view*/
 }
 
-
 .footer{
-    height:150px;
+    height:130px;
     background-color:slategrey;
     font-size:20px;
     text-align:center;
+    padding-top: 1%;
 }
 
 #date{
@@ -198,4 +198,8 @@ img{
     flex-shrink: initial;
     width: 100%;
     }
+}
+
+.pics{
+    padding: 0;
 }
