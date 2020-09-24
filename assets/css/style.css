@@ -49,7 +49,7 @@ h1{
 }
 
 .scroll2{
-    height:400px;
+    height:450px;
     background-color:slategrey;
     font-size:20px;
     text-align:center;
@@ -112,6 +112,7 @@ input[type=email] {
     background-color: slategrey;
     outline: none;
 }
+
 
 textarea {
     width: 50%;

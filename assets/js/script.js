@@ -37,9 +37,11 @@ calender();
 function clearSelect(){
     let placeholderName = document.getElementById("name").placeholder;
     let placeholderMail = document.getElementById("email").placeholder;
+    let placeholderSubject = document.getElementById("subject").placeholder;
     let placeholderMessage = document.getElementById("msg").placeholder;
     document.getElementById("name").value = placeholderName;
     document.getElementById("email").value = placeholderMail;
+    document.getElementById("subject").value = placeholderSubject;
     document.getElementById("msg").value = placeholderMessage;
 }
 

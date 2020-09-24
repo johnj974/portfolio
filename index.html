@@ -109,20 +109,18 @@
 		<div class="row">
 			<div class="col">
                 <p>Contact</p>
-                <form action="" method="POST">
+                <form action="contact.php" method="POST">
                     
                             
                             <input type="text" id="name" name="user_name" placeholder="Name:" value="" required>
                             <br>
-                        
-                            
                             <input type="email" id="email" name="e_mail" placeholder="E-mail:" required>
                             <br>
-                        
-                            
+                            <input type="text" id="subject" name="subject" placeholder="Subject:" value="" required>
+                            <br>
                             <textarea id="msg" name="user_message" placeholder="Message:" maxlength="215" required ></textarea>
                             <br>
-                            <button type="submit" id="send" onclick="confirmation(),setTimeout(clearConfirmation, 3000)"> Send your message.</button>
+                            <button type="submit" name="submit" id="send" onclick="confirmation(),setTimeout(clearConfirmation, 3000)"> Send message.</button>
                             <button onclick="clearSelect()" id="clear">Clear Fields. </button>
                             <p id="confirm"></p>
                         
