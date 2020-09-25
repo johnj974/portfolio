@@ -49,7 +49,7 @@ h1{
 }
 
 .scroll2{
-    height:450px;
+    height:460px;
     background-color:slategrey;
     font-size:20px;
     text-align:center;
@@ -159,7 +159,7 @@ button{
 }
 
 #totop{
-    color: red;
+    color:  rgb(206, 21, 181);
 }
 
 #totop:hover{
@@ -168,13 +168,12 @@ button{
 }
 
 a{
-    color: purple;
+    color: rgb(206, 21, 181);
 }
 
 a:hover{
-    color: rgb(255, 8, 0);
+    color:  rgb(253, 22, 222);
     transition: color 0.5s ease-in-out;
-    text-decoration: none;
 }
 
 #send:hover{
@@ -203,4 +202,15 @@ img{
 
 .pics{
     padding: 0;
+}
+
+/*hide purple computer on smaller screens*/
+@media screen and (max-width: 768px) {
+    #purpleComputer{
+        height: 0px!important;
+  }
+}
+
+.card-text{
+    color:rgb(206, 21, 181);
 }

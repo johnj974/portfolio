@@ -34,12 +34,14 @@ function noInfo(){
 -------*/
 
 function projectOne(metallic){
+    //document.getElementById("metallicTitle").style.color = "rgb(255, 8, 0)";
     document.getElementById("metalProject1").innerHTML = metallic.tech1;
     document.getElementById("metalProject2").innerHTML = metallic.tech2;
     document.getElementById("metalProject3").innerHTML = metallic.tech3;
     document.getElementById("metalProject4").innerHTML = metallic.tech4;  
 }
 function clearMetallic(){
+    //document.getElementById("metallicTitle").style.color = "rgb(206, 21, 181)";
     document.getElementById("metalProject1").innerHTML = null;
     document.getElementById("metalProject2").innerHTML = null;
     document.getElementById("metalProject3").innerHTML = null;

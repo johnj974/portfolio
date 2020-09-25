@@ -44,7 +44,7 @@
                     <div class="card bg-dark text-white h-100 cardproject">
                     <img src="assets/images/band.jpg" class="card-img" alt="rock band on stage">
                     <div class="card-img-overlay">
-                        <a href="https://johnj974.github.io/The-Metallic-AA-s/" target="_blank"><h5 class="card-title">Metallic AA's</h5></a>
+                        <a href="https://johnj974.github.io/The-Metallic-AA-s/" target="_blank"><h5 class="card-title" id="metallicTitle">Metallic AA's</h5></a>
                         <p class="card-text"  id="metalProject1"></p>
                         <p class="card-text"  id="metalProject2"></p>
                         <p class="card-text"  id="metalProject3"></p>
@@ -94,7 +94,7 @@
                     </div>
                 </div>
                 
-                <div class="col h-100 col-12 col-md-4 pics">
+                <div class="col h-100 col-12 col-md-4 pics" id="purpleComputer">
                     <div class="card bg-dark text-white h-100 cardproject">
                     <img src="assets/images/purple.jpg" class="card-img" id="projpic" alt="computers with a purple background">
                     <div class="card-img-overlay">
@@ -126,11 +126,11 @@
                 <form action="contact.php" method="POST">
                     
                             
-                            <input type="text" id="name" name="user_name" placeholder="Name:" value="" required>
+                            <input type="text" id="name" name="user_name" placeholder="Name:" value="" required maxlength="30">
                             <br>
-                            <input type="email" id="email" name="e_mail" placeholder="E-mail:" required>
+                            <input type="email" id="email" name="e_mail" placeholder="E-mail:" required maxlength="40">
                             <br>
-                            <input type="text" id="subject" name="subject" placeholder="Subject:" value="" required>
+                            <input type="text" id="subject" name="subject" placeholder="Subject:" value="" required maxlength="30">
                             <br>
                             <textarea id="msg" name="user_message" placeholder="Message:" maxlength="215" required ></textarea>
                             <br>
