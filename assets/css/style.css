@@ -5,11 +5,6 @@ body, html{
     margin: 0px;
     padding: 0px;
     font-family: 'Raleway', sans-serif;
-    /*--scroll-behavior: smooth;--*/
-}
-
-h1{
-    color: red;
 }
 
 .parallax {
@@ -81,7 +76,6 @@ h1{
     overflow: hidden;
 }
 
-
 .card{
     border: none;
     border-radius: 0;
@@ -91,7 +85,7 @@ p{
     margin: 0;
 }
 
-input[type=text] {
+input[type=text],input[type=email]{
     width: 50%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -101,18 +95,6 @@ input[type=text] {
     background-color: slategrey;
     outline: none;
 }
-
-input[type=email] {
-    width: 50%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-    border: none;
-    border-bottom: 1px solid black;
-    background-color: slategrey;
-    outline: none;
-}
-
 
 textarea {
     width: 50%;
@@ -207,7 +189,7 @@ img{
 /*hide purple computer on smaller screens*/
 @media screen and (max-width: 768px) {
     #purpleComputer{
-        height: 0px!important;
+        display: none;
   }
 }
 

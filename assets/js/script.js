@@ -46,7 +46,21 @@ function clearSelect(){
 }
 
 function confirmation(){
+    if (document.getElementById("name").value == ""){
+        document.getElementById("confirm").innerHTML = "Please fill in Name details ";
+    }
+    else if (document.getElementById("email").value == ""){
+        document.getElementById("confirm").innerHTML = "Please fill in E-mail details ";
+    }
+    else if (document.getElementById("subject").value == ""){
+        document.getElementById("confirm").innerHTML = "Please fill in Subject details ";
+    }
+    else if (document.getElementById("msg").value == ""){
+        document.getElementById("confirm").innerHTML = "Please fill in Message details ";
+    }
+    else{
     document.getElementById("confirm").innerHTML = "Message successfully delivered";
+    }
 }
 
 function clearConfirmation(){
