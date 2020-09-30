@@ -7,11 +7,12 @@ function project(name, tech1, tech2, tech3, tech4, description){
     this.description = description;
 }
 
-let metallic = new project("Metallic AA's", "HTML", "CSS", "Bootstrap","Font Awesome", "A project about a heavy metal band");
-let countryInfo = new project("Country Info App", "Javascript", "HTML", "CSS",);
-let triathlon = new project("Triathlon Checklist", "Python", "Flask", "Mongo DB", "CSS");
-let mystery = new project("Mystery Shack", "Python", "Javascript", "Django", "AWS");
-let santa = new project("Santa CV", "HTML", "Javascript", "CSS", "Bootstrap")
+let metallic = new project("Metallic AA's", "HTML", "CSS", "Bootstrap","Font Awesome", 
+"This is a combination of four web pages for a fictional band called The Metallic AA's, The four pages showcase the band, availabe tour dates, available merchandise and a membership page.");
+let countryInfo = new project("Country Info App", "Javascript", "HTML", "CSS","An interactive site that shows information, location and weather for any selected country");
+let triathlon = new project("Triathlon Checklist", "Python", "Flask", "Mongo DB", "CSS", "A simple to use app that allows users to create, read, update and delete triathlon related information");
+let mystery = new project("Mystery Shack", "Python", "Javascript", "Django", "AWS", "An early draft for an e-commerce store using the Django framework");
+let santa = new project("Santa CV", "HTML", "Javascript", "CSS", "Bootstrap", "A site showcasing all the skills that Santa has to offer")
 
 /*------
 function info(project){
@@ -38,14 +39,16 @@ function projectOne(metallic){
     document.getElementById("metalProject1").innerHTML = metallic.tech1;
     document.getElementById("metalProject2").innerHTML = metallic.tech2;
     document.getElementById("metalProject3").innerHTML = metallic.tech3;
-    document.getElementById("metalProject4").innerHTML = metallic.tech4;  
+    document.getElementById("metalProject4").innerHTML = metallic.tech4; 
+    document.getElementById("metalDescription").innerHTML = `This is a combination of four web pages for a fictional band called The Metallic AA's, The main technologies used were ${metallic.tech1}`; 
 }
 function clearMetallic(){
     //document.getElementById("metallicTitle").style.color = "rgb(206, 21, 181)";
     document.getElementById("metalProject1").innerHTML = null;
     document.getElementById("metalProject2").innerHTML = null;
     document.getElementById("metalProject3").innerHTML = null;
-    document.getElementById("metalProject4").innerHTML = null;  
+    document.getElementById("metalProject4").innerHTML = null; 
+    document.getElementById("metalDescription").innerHTML = null; 
 }
 
 

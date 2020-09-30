@@ -1,3 +1,7 @@
+*{
+    box-sizing:border-box;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
 body, html{
@@ -150,12 +154,13 @@ button{
 }
 
 a{
-    color: rgb(206, 21, 181);
+    color: rgb(184, 32, 163);
 }
 
 a:hover{
-    color:  rgb(253, 22, 222);
+    color:  rgb(228, 6, 54);
     transition: color 0.5s ease-in-out;
+    text-decoration: none;
 }
 
 #send:hover{
@@ -194,5 +199,6 @@ img{
 }
 
 .card-text{
-    color:rgb(206, 21, 181);
+    color: whitesmoke;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
 }

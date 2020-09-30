@@ -63,6 +63,7 @@ function confirmation(){
     }
 }
 
+// function used to clear contact message
 function clearConfirmation(){
     document.getElementById("confirm").innerHTML = null 
 }
