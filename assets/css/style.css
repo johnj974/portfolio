@@ -11,6 +11,13 @@ body, html{
     font-family: 'Raleway', sans-serif;
 }
 
+#date{
+    margin: 0;
+    padding: 8px;
+    float: right;
+}
+
+/*--------------------------------background images section-------------------------*/
 .parallax {
     background-image: url("../images/create.jpg");
     height: 100%; 
@@ -38,42 +45,13 @@ body, html{
     background-size: cover;
 }
 
-.parallax4 {
-    background-image: url('../images/purple.jpg');
-    height: 70%; 
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.scroll2{
-    height:460px;
-    background-color:slategrey;
-    font-size:20px;
-    text-align:center;
-}
-
+/*--------------------------------project section-------------------------*/
 .projects{
     height:500px;
     background-color:slategrey;
     font-size:20px;
     text-align:center;
     display: table-header-group;  /*this line to display projects in mobile view*/
-}
-
-.footer{
-    height:130px;
-    background-color:slategrey;
-    font-size:20px;
-    text-align:center;
-    padding-top: 1%;
-}
-
-#date{
-    margin: 0;
-    padding: 8px;
-    float: right;
 }
 
 .cardproject{
@@ -87,6 +65,52 @@ body, html{
 
 p{
     margin: 0;
+}
+
+a{
+    color: rgb(184, 32, 163);
+}
+
+a:hover{
+    color:  rgb(228, 6, 54);
+    transition: color 0.5s ease-in-out;
+    text-decoration: none;
+}
+
+img{
+    min-height: -webkit-fill-available;
+}
+
+/* media to handle smaller pictures on larger screens*/
+@media screen and (min-width: 1200px) {
+  .card-img, .card-img-bottom, .card-img-top {
+    flex-shrink: initial;
+    width: 100%;
+    }
+}
+
+.pics{
+    padding: 0;
+}
+
+/*hide purple computer on smaller screens*/
+@media screen and (max-width: 768px) {
+    #purpleComputer{
+        display: none;
+  }
+}
+
+.card-text{
+    color: whitesmoke;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+
+/*--------------------------------contact section-------------------------*/
+.contactArea{
+    height:460px;
+    background-color:slategrey;
+    font-size:20px;
+    text-align:center;
 }
 
 input[type=text],input[type=email]{
@@ -133,7 +157,7 @@ textarea {
 }
 
 @media screen and (max-width: 768px) {
-    .scroll2{
+    .contactArea{
         position: relative;
   }
 }
@@ -144,6 +168,32 @@ button{
     border: none;
 }
 
+#send:hover, #clear:hover{
+    color: whitesmoke;
+    transition: color 0.5s ease-in-out;
+    border: none;
+}
+
+/*--------------------------------footer section-------------------------*/
+.footer{
+    height:130px;
+    background-color:slategrey;
+    font-size:20px;
+    text-align:center;
+    padding-top: 1%;
+}
+
+.fa, .fas {
+    font-weight: 900;
+    margin-right: 10px;
+   
+}
+
+.fab, .far {
+    font-weight: 400;
+    margin-left: 10px;
+}
+
 #totop{
     color:  rgb(206, 21, 181);
 }
@@ -151,54 +201,4 @@ button{
 #totop:hover{
     color: green;
     transition: color 0.5s ease-in-out;
-}
-
-a{
-    color: rgb(184, 32, 163);
-}
-
-a:hover{
-    color:  rgb(228, 6, 54);
-    transition: color 0.5s ease-in-out;
-    text-decoration: none;
-}
-
-#send:hover{
-    color: whitesmoke;
-    transition: color 0.5s ease-in-out;
-    border: none;
-}
-
-#clear:hover{
-    color:  whitesmoke;
-    transition: color 0.5s ease-in-out;
-    border: none
-}
-
-img{
-    min-height: -webkit-fill-available;
-}
-
-/* media to handle smaller pictures on larger screens*/
-@media screen and (min-width: 1200px) {
-  .card-img, .card-img-bottom, .card-img-top {
-    flex-shrink: initial;
-    width: 100%;
-    }
-}
-
-.pics{
-    padding: 0;
-}
-
-/*hide purple computer on smaller screens*/
-@media screen and (max-width: 768px) {
-    #purpleComputer{
-        display: none;
-  }
-}
-
-.card-text{
-    color: whitesmoke;
-    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
 }
